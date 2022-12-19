@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.2faac605.css",
-    "main.js": "/static/js/main.6cfd17f8.js",
+    "main.js": "/static/js/main.6fd79f40.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/myGlamm.png": "/static/media/myGlamm.1067f33d76964fc2aeeb.png",
     "static/media/wrike.png": "/static/media/wrike.ff0da9bd5e2a374f5bef.png",
+    "static/media/Gaurav-Suthar-Resume.pdf": "/static/media/Gaurav-Suthar-Resume.57cb77bf4dfd2e100928.pdf",
     "static/media/chakraui.png": "/static/media/chakraui.15320604467d004df871.png",
     "static/media/typescript.png": "/static/media/typescript.17936c69824e11a996c4.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
@@ -22,11 +23,11 @@
     "static/media/html.svg": "/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
     "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
     "main.2faac605.css.map": "/static/css/main.2faac605.css.map",
-    "main.6cfd17f8.js.map": "/static/js/main.6cfd17f8.js.map",
+    "main.6fd79f40.js.map": "/static/js/main.6fd79f40.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2faac605.css",
-    "static/js/main.6cfd17f8.js"
+    "static/js/main.6fd79f40.js"
   ]
 }
