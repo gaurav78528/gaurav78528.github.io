@@ -1,18 +1,47 @@
 .home {
-  width: 90%;
-  margin: auto;
-  padding-top: 100px;
+  background-color: #edf2f8;
 }
-.max-width {
+.home-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width:90%;
+  margin: auto;
+  padding: 80px 0;
+ 
 }
-.max-width img {
+.home-container img {
+  width: 300px;
   border-radius: 50%;
   outline: 4px solid rgb(216, 211, 211);
   outline-offset: -10px;
   border: 3px solid #dc143c;
+  position: relative;
+  animation: profile_move 1.5s 1;
+}
+@keyframes profile_move {
+  from {
+    right: -1000px;
+  }
+  to {
+    right: 0px;
+  }
+}
+@keyframes user_details_move {
+  from {
+    left: -1000px;
+  }
+  to {
+    left: 0px;
+  }
+}
+.home-content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  animation: user_details_move 1.8s 1;
 }
 .home .home-content .text-1 {
   font-size: 27px;
@@ -30,7 +59,10 @@
   color: #dc143c;
   font-weight: 600;
 }
-.home .home-content > button {
+.btn {
+  margin: 40px 0;
+}
+.btn > a {
   background-color: #dc143c;
   padding: 10px 30px;
   font-size: 18px;
@@ -38,30 +70,33 @@
   cursor: pointer;
   color: #fff;
   border: none;
-  border-radius: 20px;
-  margin: 40px 0;
+  border-radius: 5px;
+  width: 130px;
   border: 1px solid #dc143c;
+  text-decoration: none;
 }
-.home .home-content > button:hover {
+
+.btn > a:hover {
   transition: 0.25s ease-in;
   color: #dc143c;
   background-color: #fff;
   border: 1px solid #dc143c;
 }
 
-/* FOR MOBILE SCREEN */
+/****************************** FOR LAPTOP SCREEN SIZES*************************************/
 @media screen and (max-width: 1000px) {
-  .home {
-    width: 100%;
-    padding: 100px 0 10px 10px;
+  .home-container {
+    /* width: 80%; */
+    margin: 70px auto;
   }
-  .max-width img {
+  .home-container img {
     width: 250px;
     border-radius: 50%;
     outline: 4px solid rgb(216, 211, 211);
     outline-offset: -10px;
     border: 3px solid #dc143c;
   }
+
   .home .home-content .text-1 {
     font-size: 23px;
   }
@@ -75,25 +110,35 @@
     margin: 5px 0;
   }
 }
+
+/****************************** FOR MOBILE SCREEN SIZES*************************************/
 @media screen and (max-width: 500px) {
-  .home {
-    width: 100%;
-    padding: 100px 0 10px 10px;
+  .home-container {
+    /* width: 90%; */
+    margin: 50px auto;
+    /* justify-content: center; */
   }
-  .max-width {
+  .home-container {
     display: flex;
     flex-direction: column-reverse;
     gap: 30px;
     justify-content: space-between;
     align-items: center;
   }
-  .max-width img {
+  .home-container img {
     width: 200px;
     border-radius: 50%;
     outline: 4px solid rgb(216, 211, 211);
     outline-offset: -10px;
     border: 3px solid #dc143c;
   }
+  .home-content {
+    /* width: 90%; */
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+
   .home .home-content .text-1 {
     font-size: 17px;
   }

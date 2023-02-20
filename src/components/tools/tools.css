@@ -1,0 +1,24 @@
+.tools-container > h1 {
+  /* padding: 40px 0; */
+  text-align: center;
+  padding: 100px 0 0 0;
+}
+
+#tools {
+  /* margin: 2vh 0 10vh 0; */
+  padding: 40px 0;
+  /* border: 1px solid red; */
+}
+
+#tools div {
+  text-align: center;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+
+#tools img {
+  /* background-color: #023e49; */
+  padding: 5vh;
+  border-radius: 50%;
+  width: 150px;
+}

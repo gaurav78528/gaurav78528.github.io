@@ -1,0 +1,61 @@
+.project-card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  padding: 20px;
+  min-width: 250px;
+  max-width: 300px;
+  /* width: 300px; */
+  /* border:1px solid red; */
+  /* overflow-x: hidden; */
+  /* transition: 10s; */
+}
+.project-card:hover {
+  box-shadow: rgba(207, 110, 137, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.project-card > img {
+  transition: 2.5s;
+  border-radius: 5px;
+}
+.project-card > img:hover {
+  transform: scale(1.05);
+}
+.project-card > div {
+  padding-top: 15px;
+}
+.project-details {
+  margin-top: 20px;
+}
+.project-details > h3 {
+  color: crimson;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+.project-details > p {
+  margin: 20px 0;
+}
+.tech-stack-heading {
+  /* margin: 20px 0; */
+  font-weight: 600;
+  color: crimson;
+}
+.tech-stack {
+  margin: 20px 0;
+}
+.deployed_links {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+.deployed_links > a {
+  transition: all 0.4s ease;
+}
+.deployed_links > a:hover {
+  transform: scale(1.1);
+  background-color: rgba(251, 155, 155, 0.366);
+  padding: 2px;
+  border-radius: 50%;
+}
+
+

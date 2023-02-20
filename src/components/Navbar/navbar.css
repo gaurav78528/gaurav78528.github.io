@@ -27,6 +27,8 @@ body {
   position: fixed;
   width: 100vw;
   top: 0px;
+  z-index: 1;
+  /* display: block; */
 }
 
 .logo {
